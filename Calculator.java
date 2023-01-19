@@ -14,7 +14,22 @@ public class Calculator {
       return subtraction;
     }
   
-    public void main(String[] args) {
-        
+    public int mulitply(int a, int b) {
+      int multiplication = a * b;
+      return multiplication;
+    }
+  
+    public int divide(int a, int b) {
+      int division = a/b;
+      return division;
+    }
+  
+    public int modulo(int a, int b) {
+      int modulo = a % b;
+      return modulo;
+    }
+  
+    public static void main(String[] args) {
+      Calculator myCalculator = new Calculator();
     }
   }
